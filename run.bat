@@ -1,0 +1,1 @@
+./cloverEtl/bin/clover.bat -loglevel INFO -contexturl ./example graph/Main.grf -  -javaagent:"./build/libs/cloveretl-agent-1.0-SNAPSHOT-all.jar"

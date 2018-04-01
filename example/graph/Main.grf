@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph author="batori" created="Fri Mar 30 23:06:43 MSK 2018" guiVersion="4.9.0.M2" id="1522440536359" licenseCode="Unlicensed" name="Main" showComponentDetails="true">
+<Global>
+<GraphParameters>
+<GraphParameterFile fileURL="workspace.prm"/>
+</GraphParameters>
+<Dictionary/>
+</Global>
+<Phase number="0">
+<Node graphName="${GRAPH_DIR}/Slave.grf" guiName="RunGraph" guiX="315" guiY="98" id="RUN_GRAPH" type="RUN_GRAPH"/>
+<Node guiName="Trash" guiX="690" guiY="98" id="TRASH" type="TRASH"/>
+<Node guiName="Trash" guiX="690" guiY="180" id="TRASH1" type="TRASH"/>
+<Edge fromNode="RUN_GRAPH:0" guiBendpoints="" guiRouter="Manhattan" id="Edge0" inPort="Port 0 (in)" outPort="Port 0 (regular mode: status messages, pipeline mode: an information record in case of successful termination, otherwise nothing)" toNode="TRASH:0"/>
+<Edge fromNode="RUN_GRAPH:1" guiBendpoints="" guiRouter="Manhattan" id="Edge1" inPort="Port 0 (in)" outPort="Port 1 (in pipeline mode an information record in case of an error, otherwise nothing)" toNode="TRASH1:0"/>
+</Phase>
+</Graph>

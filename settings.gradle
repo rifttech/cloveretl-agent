@@ -1,0 +1,3 @@
+rootProject.name = 'cloveretl-agent'
+include 'simple-clover-etl-listener'
+
